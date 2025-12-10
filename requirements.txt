@@ -1,0 +1,23 @@
+# نظام المحاسبة المتكامل - Python Flask
+# متطلبات النظام الأساسية
+
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Werkzeug==3.0.1
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+blinker==1.7.0
+
+# مكتبات إضافية مفيدة
+python-dateutil==2.8.2
+pytz==2023.3
+
+# اختيارية للتطوير
+Flask-DebugToolbar==0.15.1
+Flask-Testing==0.8.1
+
+# اختيارية للإنتاج
+gunicorn==21.2.0
+eventlet==0.33.3

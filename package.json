@@ -1,0 +1,55 @@
+{
+  "name": "accounting-system",
+  "version": "1.0.0",
+  "description": "نظام محاسبة متكامل للمؤسسات الصغيرة والمتوسطة",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o",
+    "dev": "live-server --port=8000",
+    "build": "echo 'Build completed - No build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "accounting",
+    "finance",
+    "pos",
+    "inventory",
+    "arabic",
+    "business",
+    "management"
+  ],
+  "author": {
+    "name": "MiniMax Agent",
+    "email": "support@minimax.com",
+    "url": "https://minimax.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimax/accounting-system.git"
+  },
+  "homepage": "https://minimax.com/accounting-system",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "files": [
+    "index.html",
+    "styles/",
+    "js/",
+    "README.md"
+  ],
+  "directories": {
+    "doc": "./",
+    "example": "./examples/"
+  },
+  "config": {
+    "port": "8000"
+  }
+}
